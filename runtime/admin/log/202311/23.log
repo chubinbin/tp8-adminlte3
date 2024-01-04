@@ -1,0 +1,47 @@
+[2023-11-23T14:43:45+08:00][sql] CONNECT:[ UseTime:0.001480s ] mysql:host=127.0.0.1;port=3306;dbname=tp6adminlte3;charset=utf8mb4
+[2023-11-23T14:43:45+08:00][sql] SHOW FULL COLUMNS FROM `admin_user` [ RunTime:0.001967s ]
+[2023-11-23T14:43:45+08:00][info] 验证登录失败，信息：未找到登录信息
+[2023-11-23T14:43:45+08:00][sql] CONNECT:[ UseTime:0.000829s ] mysql:host=127.0.0.1;port=3306;dbname=tp6adminlte3;charset=utf8mb4
+[2023-11-23T14:43:45+08:00][sql] SHOW FULL COLUMNS FROM `admin_menu` [ RunTime:0.001233s ]
+[2023-11-23T14:43:45+08:00][sql] SELECT * FROM `admin_menu` WHERE (  `url` = 'admin/auth/login' ) AND `admin_menu`.`delete_time` = '0' LIMIT 1 [ RunTime:0.001182s ]
+[2023-11-23T14:43:45+08:00][sql] SHOW FULL COLUMNS FROM `admin_user` [ RunTime:0.001371s ]
+[2023-11-23T14:43:45+08:00][sql] SHOW FULL COLUMNS FROM `setting_group` [ RunTime:0.001115s ]
+[2023-11-23T14:43:45+08:00][sql] SELECT * FROM `setting_group` WHERE (  `code` = 'admin.display.top_nav' ) AND `setting_group`.`delete_time` = '0' LIMIT 1 [ RunTime:0.000408s ]
+[2023-11-23T14:43:46+08:00][sql] CONNECT:[ UseTime:0.004094s ] mysql:host=127.0.0.1;port=3306;dbname=tp6adminlte3;charset=utf8mb4
+[2023-11-23T14:43:46+08:00][sql] SHOW FULL COLUMNS FROM `admin_menu` [ RunTime:0.001569s ]
+[2023-11-23T14:43:46+08:00][sql] SELECT * FROM `admin_menu` WHERE (  `url` = 'admin/auth/captcha' ) AND `admin_menu`.`delete_time` = '0' LIMIT 1 [ RunTime:0.000944s ]
+[2023-11-23T15:08:21+08:00][sql] CONNECT:[ UseTime:0.035881s ] mysql:host=127.0.0.1;port=3306;dbname=tp6adminlte3;charset=utf8mb4
+[2023-11-23T15:08:21+08:00][sql] SHOW FULL COLUMNS FROM `admin_user` [ RunTime:0.001732s ]
+[2023-11-23T15:08:21+08:00][info] 验证登录失败，信息：未找到登录信息
+[2023-11-23T15:08:21+08:00][sql] CONNECT:[ UseTime:0.000780s ] mysql:host=127.0.0.1;port=3306;dbname=tp6adminlte3;charset=utf8mb4
+[2023-11-23T15:08:21+08:00][sql] SHOW FULL COLUMNS FROM `admin_menu` [ RunTime:0.001175s ]
+[2023-11-23T15:08:21+08:00][sql] SELECT * FROM `admin_menu` WHERE (  `url` = 'admin/auth/login' ) AND `admin_menu`.`delete_time` = '0' LIMIT 1 [ RunTime:0.000675s ]
+[2023-11-23T15:08:21+08:00][sql] SHOW FULL COLUMNS FROM `admin_user` [ RunTime:0.001041s ]
+[2023-11-23T15:08:21+08:00][sql] SHOW FULL COLUMNS FROM `setting_group` [ RunTime:0.000908s ]
+[2023-11-23T15:08:21+08:00][sql] SELECT * FROM `setting_group` WHERE (  `code` = 'admin.display.top_nav' ) AND `setting_group`.`delete_time` = '0' LIMIT 1 [ RunTime:0.000407s ]
+[2023-11-23T15:08:21+08:00][sql] CONNECT:[ UseTime:0.000990s ] mysql:host=127.0.0.1;port=3306;dbname=tp6adminlte3;charset=utf8mb4
+[2023-11-23T15:08:21+08:00][sql] SHOW FULL COLUMNS FROM `admin_menu` [ RunTime:0.001513s ]
+[2023-11-23T15:08:21+08:00][sql] SELECT * FROM `admin_menu` WHERE (  `url` = 'admin/auth/captcha' ) AND `admin_menu`.`delete_time` = '0' LIMIT 1 [ RunTime:0.000578s ]
+[2023-11-23T15:08:31+08:00][sql] CONNECT:[ UseTime:0.000833s ] mysql:host=127.0.0.1;port=3306;dbname=tp6adminlte3;charset=utf8mb4
+[2023-11-23T15:08:31+08:00][sql] SHOW FULL COLUMNS FROM `admin_menu` [ RunTime:0.001229s ]
+[2023-11-23T15:08:31+08:00][sql] SELECT * FROM `admin_menu` WHERE (  `url` = 'admin/auth/token' ) AND `admin_menu`.`delete_time` = '0' LIMIT 1 [ RunTime:0.000550s ]
+[2023-11-23T15:08:32+08:00][sql] CONNECT:[ UseTime:0.000751s ] mysql:host=127.0.0.1;port=3306;dbname=tp6adminlte3;charset=utf8mb4
+[2023-11-23T15:08:32+08:00][sql] SHOW FULL COLUMNS FROM `admin_menu` [ RunTime:0.000924s ]
+[2023-11-23T15:08:32+08:00][sql] SELECT * FROM `admin_menu` WHERE (  `url` = 'admin/auth/login' ) AND `admin_menu`.`delete_time` = '0' LIMIT 1 [ RunTime:0.000434s ]
+[2023-11-23T15:08:32+08:00][sql] SHOW FULL COLUMNS FROM `admin_user` [ RunTime:0.000701s ]
+[2023-11-23T15:08:32+08:00][sql] SELECT * FROM `admin_user` WHERE (  `username` = 'admin' ) AND `admin_user`.`delete_time` = '0' LIMIT 1 [ RunTime:0.000667s ]
+[2023-11-23T15:08:32+08:00][sql] SHOW FULL COLUMNS FROM `admin_log` [ RunTime:0.002523s ]
+[2023-11-23T15:08:32+08:00][sql] INSERT INTO `admin_log` SET `admin_user_id` = 2 , `name` = '登录' , `log_method` = 'POST' , `url` = '/admin/auth/login.html?redirect=%2Fadmin%2Findex%2Findex.html' , `log_ip` = '127.0.0.1' , `create_time` = 1700723312 , `update_time` = 1700723312 [ RunTime:0.015360s ]
+[2023-11-23T15:08:32+08:00][sql] SHOW FULL COLUMNS FROM `admin_log_data` [ RunTime:0.031730s ]
+[2023-11-23T15:08:32+08:00][sql] REPLACE INTO `admin_log_data` SET `admin_log_id` = 17 , `data` = '{\"header\":{\"cookie\":\"thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; device_id_uid_2=fd3cb1c720cf67276c3c48653730c4c5070fc98d; DarkMode=0; HeaderFixed=0; DropdownLegacyOffset=0; NoBorder=0; SidebarCollapsed=0; SidebarFixed=0; SidebarMini=0; SidebarMiniMd=0; SidebarMiniXs=0; FlatSidebar=0; LegacySidebar=0; CompactSidebar=0; ChildIndentSidebar=0; ChildHideSidebar=0; NoExpandSidebar=0; FootFixed=0; TextSmBody=0; TextSmHeader=0; TextSmBrand=0; TextSmSidebar=0; TextSmFooter=0; AppSId=bcbf627f8038b5df2a761c930df9b060\",\"accept-language\":\"zh-CN,zh;q=0.9\",\"accept-encoding\":\"gzip, deflate\",\"referer\":\"http:\\/\\/tp8adminlte3.com\\/admin\\/auth\\/login.html?redirect=%2Fadmin%2Findex%2Findex.html\",\"origin\":\"http:\\/\\/tp8adminlte3.com\",\"content-type\":\"multipart\\/form-data; boundary=----WebKitFormBoundaryRUZhgINKwc1J1Gdw\",\"user-agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/119.0.0.0 Safari\\/537.36\",\"x-requested-with\":\"XMLHttpRequest\",\"accept\":\"application\\/json, text\\/javascript, *\\/*; q=0.01\",\"content-length\":\"473\",\"connection\":\"keep-alive\",\"host\":\"tp8adminlte3.com\"},\"param\":{\"redirect\":\"\\/admin\\/index\\/index.html\",\"username\":\"admin\",\"password\":\"admin123\",\"captcha\":\"4312\",\"__token__\":\"b1f9931b3c77ec15a52cf844d1fea0a3\"}}' , `create_time` = 1700723312 , `update_time` = 1700723312 [ RunTime:0.000498s ]
+[2023-11-23T15:08:32+08:00][sql] CONNECT:[ UseTime:0.000859s ] mysql:host=127.0.0.1;port=3306;dbname=tp6adminlte3;charset=utf8mb4
+[2023-11-23T15:08:32+08:00][sql] SHOW FULL COLUMNS FROM `admin_user` [ RunTime:0.002552s ]
+[2023-11-23T15:08:32+08:00][sql] SELECT * FROM `admin_user` WHERE (  `id` = 2 ) AND `admin_user`.`delete_time` = '0' LIMIT 1 [ RunTime:0.000682s ]
+[2023-11-23T15:08:32+08:00][sql] SHOW FULL COLUMNS FROM `admin_menu` [ RunTime:0.001525s ]
+[2023-11-23T15:08:32+08:00][sql] SELECT * FROM `admin_menu` WHERE (  `url` = 'admin/index/index' ) AND `admin_menu`.`delete_time` = '0' LIMIT 1 [ RunTime:0.001617s ]
+[2023-11-23T15:08:32+08:00][sql] SHOW FULL COLUMNS FROM `setting_group` [ RunTime:0.001059s ]
+[2023-11-23T15:08:32+08:00][sql] SELECT * FROM `setting_group` WHERE (  `code` = 'admin.display.top_nav' ) AND `setting_group`.`delete_time` = '0' LIMIT 1 [ RunTime:0.000436s ]
+[2023-11-23T15:08:32+08:00][sql] SELECT `id`,`parent_id`,`name`,`icon` FROM `admin_menu` WHERE `admin_menu`.`delete_time` = '0' [ RunTime:0.000364s ]
+[2023-11-23T15:08:32+08:00][sql] SHOW FULL COLUMNS FROM `admin_role` [ RunTime:0.001900s ]
+[2023-11-23T15:08:32+08:00][sql] SELECT `url` FROM `admin_role` WHERE (  `id` = 1  AND `status` = 1 ) AND `admin_role`.`delete_time` = '0' [ RunTime:0.000496s ]
+[2023-11-23T15:08:32+08:00][sql] SELECT `id`,`parent_id`,`name`,`url`,`icon`,`sort_number` FROM `admin_menu` WHERE (  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,32,33,34,35,36,37,38,39,40,41,42,43,44,47,48,49,50,51,52,53,54,55)  AND `is_show` = 1 ) AND `admin_menu`.`delete_time` = '0' ORDER BY `sort_number` ASC,`id` ASC [ RunTime:0.000522s ]
